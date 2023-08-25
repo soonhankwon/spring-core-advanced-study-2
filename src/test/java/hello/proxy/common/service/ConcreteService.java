@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class ConcreteService {
 
-    private void call() {
+    public void call() {
         log.info("ConcreteService 호출");
     }
 }
